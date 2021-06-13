@@ -1,0 +1,188 @@
+[{
+  "_id": {
+    "$oid": "6037d5bd1bc250809c8077b7"
+  },
+  "identificacion": "80169686",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "Mauricio Andres",
+  "apellido": "Moreno Quiñones",
+  "correo": "maomaoq@hotmail.com",
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d5c71bc250809c8077b8"
+  },
+  "identificacion": "11111111",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 1",
+  "correo": "persona_prueba1@addi.com",
+  "estado": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d5d11bc250809c8077b9"
+  },
+  "identificacion": "22222222",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 2",
+  "correo": "persona_prueba2@addi.com",
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d5d61bc250809c8077ba"
+  },
+  "identificacion": "33333333",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 3",
+  "correo": "persona_prueba3@addi.com",
+  "estado": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d5db1bc250809c8077bb"
+  },
+  "identificacion": "44444444",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 4",
+  "correo": "persona_prueba4@addi.com",
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d5e11bc250809c8077bc"
+  },
+  "identificacion": "55555555",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 5",
+  "correo": "persona_prueba5@addi.com",
+  "estado": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d5e61bc250809c8077bd"
+  },
+  "identificacion": "66666666",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 6",
+  "correo": "persona_prueba6@addi.com",
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d5ea1bc250809c8077be"
+  },
+  "identificacion": "77777777",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 7",
+  "correo": "persona_prueba7@addi.com",
+  "estado": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d5f01bc250809c8077bf"
+  },
+  "identificacion": "88888888",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 8",
+  "correo": "persona_prueba8@addi.com",
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d5f61bc250809c8077c0"
+  },
+  "identificacion": "99999999",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 9",
+  "correo": "persona_prueba9@addi.com",
+  "estado": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d5fb1bc250809c8077c1"
+  },
+  "identificacion": "10101010",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 10",
+  "correo": "persona_prueba10@addi.com",
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d6011bc250809c8077c2"
+  },
+  "identificacion": "011011011",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 11",
+  "correo": "persona_prueba11@addi.com",
+  "estado": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d6051bc250809c8077c3"
+  },
+  "identificacion": "12121212",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 12",
+  "correo": "persona_prueba12@addi.com",
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d60a1bc250809c8077c4"
+  },
+  "identificacion": "13131313",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 13",
+  "correo": "persona_prueba13@addi.com",
+  "estado": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6037d60f1bc250809c8077c5"
+  },
+  "identificacion": "14141414",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 14",
+  "correo": "persona_prueba14@addi.com",
+  "estado": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "605b7e8779ad5e39c8b00b4a"
+  },
+  "identificacion": "15151515",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 15",
+  "correo": "persona_prueba15@addi.com",
+  "estado": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "605b7fadfb0b377e68dad1e1"
+  },
+  "identificacion": "16161616",
+  "fecha_nacimiento": "01-01-2000",
+  "nombre": "persona",
+  "apellido": "prueba 16",
+  "correo": "persona_prueba16@addi.com",
+  "estado": true,
+  "__v": 0
+}]
