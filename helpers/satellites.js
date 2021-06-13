@@ -1,3 +1,5 @@
+const { saveDb } = require("./saveFile");
+
 /**
  * Satélites con sus valores en X, Y, para modificar favor dirigirse a .env en la raíz
  */
@@ -43,7 +45,7 @@ const trilateration = (beacons) => {
     var j, k, x, y;
 
     if (beacons.length < 3) {
-        console.error("Error! Please add at least three beacons!");
+        console.error("Error! Por favor agregue al menos tres satélites!");
         return { x:0, y:0 };
     }
     
@@ -74,8 +76,20 @@ const setParametersSatellites = ( distances ) => {
     return beacons;
 }
 
+const saveSatellite = ( name, data) => {
+    const satellite = {
+        name : name,
+        distance : data.distance,
+        message : data.message
+    }
+
+    saveDb( satellite );
+
+    return satellite;
+}
 
 module.exports = {
     GetLocation,
     extractLocations,
+    saveSatellite,
 }

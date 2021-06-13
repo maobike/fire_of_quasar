@@ -1,9 +1,9 @@
 const { response, request } = require('express');
 const { extractMessage, getMessage } = require('../helpers/messages');
-const { GetLocation, extractLocations } = require('../helpers/satellites');
+const { GetLocation, extractLocations, saveSatellite } = require('../helpers/satellites');
 
 
-const verifySatellite = async(req = request, res = response) => {
+const verifySatellite = (req = request, res = response) => {
 
     const { satellites } = req.body;
     
@@ -25,6 +25,29 @@ const verifySatellite = async(req = request, res = response) => {
     })
 }
 
+const setSatellite = (req = request, res = response) => {
+
+    const name = req.params.name;
+    const data = req.body
+
+    const satellite = saveSatellite( name, data );
+    
+    
+    res.json({
+        satellite
+    })
+}
+
+const getPositionObject = ( req = request, res = response ) => {
+
+    res.json({
+        msg: 'ok'
+    })
+}
+
+
 module.exports = {
-    verifySatellite
+    verifySatellite,
+    setSatellite,
+    getPositionObject,  
 }
