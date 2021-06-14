@@ -28,7 +28,7 @@ const verifySatellite = (req = request, res = response) => {
         })
             
     } catch (error) {
-        console.log(err);
+        console.log(error);
         return res.status(500).json({
             msg: '¡Error!, hable con el administrador'
         });
@@ -65,7 +65,7 @@ const setSatellite = (req = request, res = response) => {
         });
         
     } catch (error) {
-        console.log(err);
+        console.log(error);
         return res.status(500).json({
             msg: '¡Error!, hable con el administrador'
         });
@@ -114,7 +114,7 @@ const getPositionObject = ( req = request, res = response ) => {
         }
             
     } catch (error) {
-        console.log(err);
+        console.log(error);
         return res.status(500).json({
             msg: '¡Error!, hable con el administrador'
         });

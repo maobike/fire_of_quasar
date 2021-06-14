@@ -7,7 +7,7 @@ const getMessage = ( messages ) => {
     let arrMessage = [];
     for (let i = 0; i < messages.length; i++) {
         for (let j = 0; j < messages[i].length; j++) {
-            if ( messages[i][j] !== '' && arrMessage[j] === undefined ) {
+            if ( messages[i][j] !== '' && messages[i][j] !== undefined && arrMessage[j] === undefined) {
                 arrMessage[j] = messages[i][j].trim().toLowerCase();
             }
         }    
