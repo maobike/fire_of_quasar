@@ -15,6 +15,8 @@ Para iniciar el servidor back
 Crear .env con la configuración de .example.env
 
 ```
+En el archivo .env esta la configuración y/o posición de los 3 satélites
+
 Servidor rest en NodeJS
 Puerto manejado con paquete dotenv
 Rutas manejadas con express
