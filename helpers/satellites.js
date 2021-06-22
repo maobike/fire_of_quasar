@@ -22,16 +22,27 @@ const GetLocation = (distances = '') => {
 }
 
 /**
- * Extrae las distancias y los unifica en un arreglo
- * @param {*} satellites arreglo completo con cada satélite y la distancia decada uno
- * @returns arrDistances, el arreglo de las distancias de cada satélite
+ * Extrae las distancias y los unifica en un arreglo ordenado por los nombres de los satélites.
+ * @param {*} satellites arreglo completo con cada satélite y la distancia decada uno.
+ * @returns arrDistances, el arreglo de las distancias de cada satélite.
  */
 const extractLocations = (satellites = '') => {
-
+    let ArrFilter = [];
     let arrDistances = [];
-    satellites.forEach(element => {
-        arrDistances.push(element.distance);
-    });
+
+    ArrFilter = satellites.filter( el => el.name === 'kenobi' );
+    arrDistances.push(ArrFilter[0].distance);
+
+    ArrFilter = satellites.filter( el => el.name === 'skywalker' );
+    arrDistances.push(ArrFilter[0].distance);
+
+    ArrFilter = satellites.filter( el => el.name === 'sato' );
+    arrDistances.push(ArrFilter[0].distance);
+
+    // let arrDistances = [];
+    // satellites.forEach(element => {
+    //     arrDistances.push(element.distance);
+    // });
 
     return arrDistances;
 }
@@ -92,4 +103,5 @@ module.exports = {
     GetLocation,
     extractLocations,
     saveSatellite,
+    trilateration,
 }
